@@ -1,3 +1,7 @@
+'''
+setup.py 文件是打包用的https://zhuanlan.zhihu.com/p/276461821
+打包的时候再研究这个
+'''
 # coding:utf8
 from setuptools import setup
 
