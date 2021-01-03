@@ -3,7 +3,8 @@
 [![Package](https://img.shields.io/pypi/v/easytrader.svg)](https://pypi.python.org/pypi/easytrader)
 [![Travis](https://img.shields.io/travis/shidenggui/easytrader.svg)](https://travis-ci.org/shidenggui/easytrader)
 [![License](https://img.shields.io/github/license/shidenggui/easytrader.svg)](https://github.com/shidenggui/easytrader/blob/master/LICENSE)
-
+以上图片看不到，但是链接是有用的，值得学习。
+张罗仙20210103开始啃代码。预计30天完成。
 * 进行自动的程序化股票交易
 * 支持跟踪 `joinquant`, `ricequant` 的模拟交易
 * 支持跟踪 雪球组合 调仓
