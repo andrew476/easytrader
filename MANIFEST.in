@@ -1,1 +1,6 @@
+'''
+资料扩展https://docs.python.org/2/distutils/sourcedist.html
+运行时，它将查找MANIFEST.in文件并对其进行解释以生成MANIFEST包含在包中的文件列表的文件。好像跟打包软件的时候有关系。
+'''
 include README.md
+#将所有文件包含在README.md中。至于是什么文件，按字面意思是自述文件。
