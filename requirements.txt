@@ -1,3 +1,4 @@
+#要求.txt 看内容是定义了一些包的版本号
 -i http://mirrors.aliyun.com/pypi/simple/
 --trusted-host mirrors.aliyun.com
 beautifulsoup4==4.6.0
