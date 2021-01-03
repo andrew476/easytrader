@@ -1,25 +1,42 @@
+'''
+我们做的每个Git项目中都需要一个“.gitignore”文件，这个文件的作用就是告诉Git哪些文件不需要添加到版本管理中。
+https://blog.csdn.net/u010566681/article/details/53183146
+'''
+
 cmd_cache.pk
+#不认识
 bak
+#不认识
 .mypy_cache
+#忽略所有.mypy_cache结尾的文件
 .pyre
+#忽略.pyre文件
 .pytest_cache
+#忽略.pytest_cache文件
 yjb_account.json
 htt.json
 gft.json
 test.py
 ht_account.json
+#以上几个不知道是什么意思，也许是忽略***.***的意思
 .idea
+#忽略所有.idea结尾的文件
 .vscode
+#忽略所有.vscode结尾的文件
 .ipynb_checkpoints
+#忽略所有.ipynb_checkpoints结尾的文件
 Untitled.ipynb
 untitled.txt
 # Byte-compiled / optimized / DLL files
+##字节编译/优化/DLL文件
 __pycache__/
+#忽略__pycache__/目录下的所有文件
 *.py[cod]
 account.json
 account.session
 # C extensions
 *.so
+#忽略所有.so结尾文件，这里符合正则匹配规则
 
 # Distribution / packaging
 .Python
@@ -42,6 +59,9 @@ var/
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#PyInstaller安装程序
+#通常这些文件是由模板中的python脚本编写的
+#在PyInstaller构建exe之前，将日期/其他信息注入其中。
 *.manifest
 *.spec
 
