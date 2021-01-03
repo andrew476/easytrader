@@ -1,9 +1,14 @@
+'''
+Pipfile则用来替代requirements.txt。提供包管理以及环境隔离。https://zhuanlan.zhihu.com/p/118556315
+'''
 [[source]]
+#这是您的软件包源（您从中下载软件包）。
 url = "http://mirrors.aliyun.com/pypi/simple/"
 verify_ssl = false
 name = "pypi"
 
 [packages]
+#下面是运行应用程序及其版本的软件包要求（运行应用程序时将使用哪些软件包）。
 pywinauto = "*"
 "bs4" = "*"
 requests = "*"
@@ -18,6 +23,7 @@ pyperclip = "*"
 easyutils = "*"
 
 [dev-packages]
+##下面是开发应用程序及其版本的软件包要求（开发应用程序时将使用哪些软件包）
 pytest-cov = "*"
 pre-commit = "*"
 pytest = "*"
@@ -29,9 +35,11 @@ ipython = "*"
 better-exceptions = "*"
 
 [requires]
+##这是您所需的Python版本。
 python_version = "3.6"
 
 [scripts]
+#脚本
 sort_imports = "bash -c 'isort \"$@\"; git add -u' --"
 format = "bash -c 'black -l 79 \"$@\"; git add -u' --"
 lint = "pylint"
