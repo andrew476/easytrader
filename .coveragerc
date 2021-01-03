@@ -1,7 +1,20 @@
+#coverage是一种用于统计Python代码覆盖率的工具，通过它可以检测测试代码对被测代码的覆盖率如何。可以高亮显示代码中哪些语句未被执行，哪些执行了，方便单测。
+#并且，coverage支持分支覆盖率统计，可以生成HTML/XML报告
 [run]
+#好像是运行的意思
 branch = True
+#分支为真
 include = easytrader/*
+#包含目录
 omit = tests/*
-
+#忽略目录
 [report]
+#报告
 fail_under = -1 
+#不合格=-1
+#这个检测代码覆盖率的工具肯定有专门的文档。
+#https://coverage.readthedocs.io/en/latest/cmd.html
+'''
+python博大精深，各种包不用都懂，但是得知道干啥得。
+
+'''
