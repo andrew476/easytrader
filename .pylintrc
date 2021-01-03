@@ -1,3 +1,9 @@
+'''
+Pylint 是一个 Python 代码分析工具，它分析 Python 代码中的错误，查找不符合代码风格标准和有潜在问题的代码。
+Pylint 是一个 Python 工具，除了平常代码分析工具的作用之外，它提供了更多的功能：如检查一行代码的长度，变量名是否符合命名标准，一个声明过的接口是否被真正实现等等。
+Pylint 的一个很大的好处是它的高可配置性，高可定制性，并且可以很容易写小插件来添加功能。https://pylint.readthedocs.io/en/latest/user_guide/run.html
+'''
+
 [MASTER]
 
 # A comma-separated list of package or module names from where C extensions may
