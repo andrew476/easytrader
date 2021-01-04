@@ -37,7 +37,7 @@ def use(broker, debug=False, **kwargs):
 #如果debug为真，则logger = logging.getLogger("easytrader")=返回指定名称的记录器。设置此记录器的日志记录级别。级别必须是int或str。
     if broker.lower() in ["xq", "雪球"]:
         return XueQiuTrader(**kwargs)
-#broker中介。
+#broker中介。这段代码看不懂
     if broker.lower() in ["yh_client", "银河客户端"]:
         from .yh_clienttrader import YHClientTrader
 
