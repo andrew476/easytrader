@@ -101,3 +101,4 @@ def follower(platform, **kwargs):
     if platform.lower() in ["xq", "xueqiu", "雪球"]:
         return XueQiuFollower(**kwargs)
     raise NotImplementedError
+#上面两个函数真没看明白。跳过以后看
